@@ -1,2 +1,20 @@
 # ReactSnippets
-VSCode React Snippets
+
+##vscode-react-javascript-snippets
+
+```
+	"React Component W Prop": {
+		"scope": "typescriptreact",
+		"prefix": "rrfc",
+		"body": [
+			"",
+			"export interface ${1:$TM_FILENAME_BASE}Props{",
+			"}",
+			"",
+			"export function ${1:$TM_FILENAME_BASE}({}:${1:$TM_FILENAME_BASE}Props) {",
+  		"	return <div>${1:$TM_FILENAME_BASE}</div>",
+			"}",
+		],
+		"description": "Creates two exports as interface and function"
+	}
+```
