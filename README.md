@@ -2,12 +2,17 @@
 
 ##vscode-react-javascript-snippets
 
-file
-preferences
-use snippets
-global snippet file
-name the file.
-Add snippets as wanted.
+1.file
+
+2.preferences
+
+3.use snippets
+
+4.global snippet file
+
+5.name the file.
+
+6.Add snippets as wanted.
 
 ```
 	"React Component W Prop": {
