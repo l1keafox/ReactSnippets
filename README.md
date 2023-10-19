@@ -2,6 +2,13 @@
 
 ##vscode-react-javascript-snippets
 
+file
+preferences
+use snippets
+global snippet file
+name the file.
+Add snippets as wanted.
+
 ```
 	"React Component W Prop": {
 		"scope": "typescriptreact",
