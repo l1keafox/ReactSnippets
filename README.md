@@ -1,0 +1,2 @@
+# ReactSnippets
+VSCode React Snippets
