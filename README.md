@@ -33,3 +33,14 @@
 		"description": "Creates two exports as interface and function"
 	}
 ```
+
+```
+	"console.log shortcut": {
+		"scope":"typescriptreact",
+		"prefix": "cnslg",
+		"body": [
+							"console.log(`${1}`);"
+						],
+		"description": "Creates two exports as interface and function"		
+	}
+```
