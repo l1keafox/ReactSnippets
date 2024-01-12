@@ -44,3 +44,34 @@
 		"description": "Creates two exports as interface and function"		
 	}
 ```
+
+
+```
+	"create a sample storybook story.tsx file to connect": {
+		"prefix": "story",
+		"body": [
+		  "import type { Meta, StoryObj } from '@storybook/react';",
+		  "",
+		  "import $1 from './$1';",
+		  "",
+		  "const meta: Meta<typeof $1> = {",
+		  "  component: $1,",
+		  "};",
+		  "",
+		  "export default meta;",
+		  "type Story = StoryObj<typeof $1>;",
+		  "",
+		  "/*",
+		  " *👇 Render functions are a framework specific feature to allow you control on how the component renders.",
+		  " * See https://storybook.js.org/docs/react/api/csf",
+		  " * to learn how to use render functions.",
+		  " */",
+		  "export const Primary: Story = {",
+		  "  render: () => <$1 />,",
+		  "};",
+		  ""
+		],
+		"description": "create a sample story"
+  }
+
+```
