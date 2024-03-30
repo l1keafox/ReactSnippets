@@ -75,3 +75,56 @@
   }
 
 ```
+
+
+```
+	"React Component W Prop and TV": {
+		"scope": "typescriptreact",
+		"prefix": "rrtv",
+		"body": [
+							"import { SbBlokData, storyblokEditable } from '@storyblok/react/rsc';",
+							"import { tv } from 'tailwind-variants';",
+							"",
+							"interface ${1:$TM_FILENAME_BASE}BlokData extends SbBlokData {",
+							"}",
+							"",
+							"export interface ${1:$TM_FILENAME_BASE}Props{",
+							"  blok: ${1:$TM_FILENAME_BASE}BlokData;",
+							"}",
+							"",
+							"const ${1:$TM_FILENAME_BASE}Styles = tv({",
+							"  slots: {",
+							"  },",
+							"  variants:{",
+							"    screenPseudo: {",
+							"      md:{",
+							"      },",
+							"      lg:{",
+							"      },",
+							"      xl:{",
+							"      },",
+							"      '2xl':{",
+							"      },",
+							"    },",
+							"  },",
+							"},{",
+							"  responsiveVariants: ['md', 'lg', 'xl', '2xl'],",
+							"});",
+							"",
+							"export function ${1:$TM_FILENAME_BASE}({blok}:${1:$TM_FILENAME_BASE}Props) {",
+							"  const {} = blok ",
+							"  const {} = ${1:$TM_FILENAME_BASE}Styles({",
+							"  });",
+							"  return (",
+							"    <div {...storyblokEditable(blok)}>",
+							"      <h1>${1:$TM_FILENAME_BASE}</h1>",
+							"    </div>",
+							"  );",
+							"}",
+							""
+						],
+		"description": "Creates two exports as interface and function"
+						
+	}		
+
+```
