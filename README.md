@@ -76,6 +76,42 @@
 
 ```
 
+```
+	"tv":{
+		"scope": "typescriptreact",
+		"prefix": "qtv",
+		"body": [
+							"import { tv } from 'tailwind-variants';",
+							"",
+							"const ${1:$TM_FILENAME_BASE}Styles = tv({",
+							"  slots: {",
+							"    root: '',",
+							"  },",
+							"  variants:{",
+							"    screenPseudo: {",
+							"      md:{",
+							"      },",
+							"      lg:{",
+							"      },",
+							"      xl:{",
+							"      },",
+							"      '2xl':{",
+							"      },",
+							"    },",
+							"  },",
+							"},{",
+							"  responsiveVariants: ['md', 'lg', 'xl', '2xl'],",
+							"});",
+							"",
+							"const {} = blok ",
+							"const { root } = ${1:$TM_FILENAME_BASE}Styles({",
+							"});",
+							""
+						],
+		"description": "tailwind varients start with responseiveVarients"
+	},
+```
+
 
 ```
 	"React Component W Prop and TV": {
